@@ -17,7 +17,7 @@ import os
 
 
 
-df = DS.read_csv('E:/Maestrado/Dataset/fars_data.csv', sep= ';', header= None)
+df = DS.read_csv('E:/fars_data.csv', sep= ';', header= None)
 
 #Divido los datos del trining y test
 X = df.values[:, 0:28]
